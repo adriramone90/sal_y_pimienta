@@ -7,10 +7,7 @@ module.exports = {
 
         let productoSolicitado = getProducts.find((producto)=>producto.id===productoId)
 
-        
-
         res.render("detalleMenu",{
-            
             productoSolicitado
         })
     }
